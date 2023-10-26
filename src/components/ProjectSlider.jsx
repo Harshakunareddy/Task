@@ -13,19 +13,23 @@ const ProjectSlider = ({ projects }) => {
   };
 
   return (
-    <div className="project-slider">
-      <button className="slider-button prev" onClick={prevSlide}>
-        Previous
-      </button>
-      <div className="project">
-        <h2>{projects[currentIndex].title}</h2>
-        <p>{projects[currentIndex].description}</p>
-        <img src={projects[currentIndex].imageUrl} alt={projects[currentIndex].title} />
+    <>
+    <h1 align="center" >Projects</h1>
+      <div className="project-slider">
+        <button className="slider-button prev" onClick={prevSlide}>
+          Previous
+        </button>
+        <div className="project">
+          <h2>{projects[currentIndex].title}</h2>
+          <p>{projects[currentIndex].description}</p>
+          <img src={projects[currentIndex].imageUrl} alt={projects[currentIndex].title} />
+        </div>
+        <button className="slider-button next" onClick={nextSlide}>
+          Next
+        </button>
       </div>
-      <button className="slider-button next" onClick={nextSlide}>
-        Next
-      </button>
-    </div>
+    </>
+    
   );
 };
 
