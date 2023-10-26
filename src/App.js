@@ -4,21 +4,22 @@ import ProjectSlider from "./components/ProjectSlider";
 import About from "./components/About";
 import Contact from "./components/Contact";
 
+
 const projects = [
   {
     title: 'Project 1',
     description: 'Description for Project 1',
-    imageUrl: 'project1.jpg',
+    imageUrl: "1.jpg",
   },
   {
     title: 'Project 2',
     description: 'Description for Project 1',
-    imageUrl: 'project1.jpg',
+    imageUrl: "2.jpg",
   },
   {
     title: 'Project 3',
     description: 'Description for Project 1',
-    imageUrl: 'project1.jpg',
+    imageUrl: "3.jpg",
   },
   // Add more projects
 ];
