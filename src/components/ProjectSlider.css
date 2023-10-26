@@ -1,4 +1,4 @@
-.project-slider {
+/* .project-slider {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -6,20 +6,17 @@
     
     background-color: #f8f8f8;    
     margin: 20px auto;
-    padding: 20px;
+    
     border: 2px solid skyblue;
-  }
+  } */
   
-  .project {
-    flex: 1;
-    text-align: center;
+  /* /* .project {  */
+    
+    /* text-align: center; */
     /* background-image: url("1.jpg"); */
-  }
+   
   
-  .img {
-    width: 500px;
-    height: 500px;
-  }
+
   
   .slider-button {
     

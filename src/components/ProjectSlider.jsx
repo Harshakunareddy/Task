@@ -16,17 +16,18 @@ const ProjectSlider = ({ projects }) => {
     <>
     <h1 align="center" >Projects</h1>
       <div className="project-slider">
-        <button className="slider-button prev" onClick={prevSlide}>
+        {/* <button className="slider-button prev" onClick={prevSlide}>
           Previous
-        </button>
+        </button> */}
         <div className="project">
           {/* <h2>{projects[currentIndex].title}</h2> */}
           {/* <p>{projects[currentIndex].description}</p> */}
-          <img className="img" src={projects[currentIndex].imageUrl} alt={projects[currentIndex].title} />
+          <img className="img" src={projects[1].imageUrl} alt={projects[1].title} />
+          
         </div>
-        <button className="slider-button next" onClick={nextSlide}>
+        {/* <button className="slider-button next" onClick={nextSlide}>
           Next
-        </button>
+        </button> */}
       </div>
     </>
     

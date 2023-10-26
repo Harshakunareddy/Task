@@ -5,21 +5,22 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 
 
+
 const projects = [
   {
     title: 'Project 1',
     description: 'Description for Project 1',
-    imageUrl: "1.jpg",
+    imageUrl: require('../photos/1.jpg').default,
   },
   {
     title: 'Project 2',
-    description: 'Description for Project 1',
-    imageUrl: "2.jpg",
+    description: 'Description for Project 2',
+    imageUrl: require('../photos/2.jpg').default,
   },
   {
     title: 'Project 3',
-    description: 'Description for Project 1',
-    imageUrl: "3.jpg",
+    description: 'Description for Project 3',
+    imageUrl: require('../photos/3.jpg').default,
   },
   // Add more projects
 ];
