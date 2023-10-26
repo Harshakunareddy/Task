@@ -13,7 +13,7 @@ const About = () => {
         <h2>About Me</h2>
         <p>
           Welcome! I'm a passionate developer with a love for creating
-          web applications. With a background in Mern stack, I bring your efficient work to
+          web applications. With a background in Mern stack, I bring quality work to
           every project I work on. Let's bring your ideas to life.
         </p>
       </div>

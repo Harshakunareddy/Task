@@ -27,7 +27,7 @@
   }
   
   .prev {
-    transform: scaleX(1);
+    transform: scaleX(-1);
   }
   
   .next {
