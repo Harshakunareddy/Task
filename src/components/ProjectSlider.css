@@ -52,4 +52,9 @@
     transform: scaleX(1);
   } 
 */
-  
+@media (max-width: 768px) {
+  .img1 {
+    max-width: 250px;
+  }
+
+}

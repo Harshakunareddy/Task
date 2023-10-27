@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <span>TaskByDensityExchange</span>
+        <span>TaskByDensity</span>
       </div>
       <div className={`menu ${showMenu ? 'open' : ''}`}>
         <ul className="nav-links">
