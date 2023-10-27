@@ -6,7 +6,7 @@ const Footer = () => {
     <div>
       <nav className="navbar">
         <div className="logo">
-          <span>MyLogo</span>
+          <span>TaskByDensityExchange</span>
         </div>
         <ul className="nav-links">
           <li><a href="/">Home</a></li>
