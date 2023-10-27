@@ -6,30 +6,31 @@ import Contact from "./components/Contact";
 
 
 
-const projects = [
-  {
-    title: 'Project 1',
-    description: 'Description for Project 1',
-    imageUrl: require('../photos/1.jpg').default,
-  },
-  {
-    title: 'Project 2',
-    description: 'Description for Project 2',
-    imageUrl: require('../photos/2.jpg').default,
-  },
-  {
-    title: 'Project 3',
-    description: 'Description for Project 3',
-    imageUrl: require('../photos/3.jpg').default,
-  },
-  // Add more projects
-];
+// const projects = [
+//   {
+//     title: 'Project 1',
+//     description: 'Description for Project 1',
+//     imageUrl: require('./1.jpg').default,
+//   },
+//   {
+//     title: 'Project 2',
+//     description: 'Description for Project 2',
+//     imageUrl: require('./2.jpg').default,
+//   },
+//   {
+//     title: 'Project 3',
+//     description: 'Description for Project 3',
+//     imageUrl: require('./3.jpg').default,
+//   },
+//   // Add more projects
+// ];
+
 export default function App(){
   return(
     <>
     <Navbar />
     <About />
-    <ProjectSlider projects={projects} />
+    <ProjectSlider />
     <Contact />
     <Footer />
     </>
