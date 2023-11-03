@@ -22,7 +22,7 @@ const websitesData = [
   {
     id: 2,
     title: '2.quiz',
-    url: 'https://unrivaled-praline-4e0984.netlify.app/',
+    url: 'https://tangerine-sunshine-bf53ee.netlify.app',
 
     image: quiz,
   },
