@@ -1,31 +1,87 @@
 // Contact.js
 import React from 'react';
 import './Contact.css';
+import 'font-awesome/css/font-awesome.min.css';
+import {
+  FaEnvelope,
+  FaPhone,
+  FaTwitter,
+  FaGithub,
+  FaLinkedin,
+} from "react-icons/fa";
+// import { Email, GitHub, LinkedIn,Phone } from "@mui/icons-material";
+// import TwitterIcon from "@mui/icons-material/Twitter";
+
 
 const Contact = () => {
   return (
-    <section className="contact-section">
+    <section className="contact-section" id="contact">
       <div className="contact-content">
+        <div className='buttons'>
+        
         <h2>Contact Me</h2>
-        <p>Feel free to reach out to me with any questions or opportunities. I'll get back to you as soon as possible.</p>
-        <form>
-          <div className="input-container">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Your name" required />
+        <h4>Feel free to reach out to me with any questions or opportunities. I'll get back to you as soon as possible.</h4>
+        
+        <div className="input-container">
+            <a href="mailto:kunareddyharshareddy@gmail.com" target="_blank" rel="noopener noreferrer">
+              {/* <p><i className="fas fa-envelope"></i></p> */}
+              <h1>
+              <FaEnvelope />
+              </h1>
+              <h1>Mail Me</h1>
+            </a>
           </div>
 
           <div className="input-container">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Your email" required />
+            <a href="tel:+918639336964" target="_blank" rel="noopener noreferrer">
+              
+              {/* <h1><i className="fas fa-phone"></i></h1> */}
+              <h1>
+                <FaPhone />
+              </h1>
+              <h1>Call Me</h1>
+            </a>
           </div>
 
           <div className="input-container">
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" placeholder="Your message" required></textarea>
+            <a href="https://github.com/Harshakunareddy/" target="_blank" rel="noopener noreferrer">
+              {/* <h1><i className="fab fa-github"></i></h1> */}
+              <h1>
+              <FaGithub />
+              </h1>
+              <h1>Github</h1>
+            </a>
           </div>
 
-          <button type="submit">Submit</button>
-        </form>
+          <div className="input-container">
+            <a 
+            href="https://www.linkedin.com/in/kunareddy-harshavardhan-reddy-63b0b61bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+             target="_blank" rel="noopener noreferrer">
+              
+              {/* <h1><i className="fab fa-linkedin-in"></i></h1> */}
+              <h1>
+              <FaLinkedin></FaLinkedin>
+              </h1>
+              
+              <h1>Linkedin</h1>
+            </a>
+          </div>
+
+          <div className="input-container">
+            <a href="https://twitter.com/Harsha_AppDev" target="_blank" rel="noopener noreferrer">
+              
+              {/* <h1><i className="fab fa-twitter"></i></h1> */}
+              <h1>
+  
+                <FaTwitter />
+
+              </h1>
+              <h1>Twitter</h1>
+            </a>
+          </div>
+
+
+        </div>
       </div>
     </section>
   );

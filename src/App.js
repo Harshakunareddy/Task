@@ -3,27 +3,12 @@ import Footer from "./components/Footer";
 import ProjectSlider from "./components/ProjectSlider";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Slider from "./components/Slider";
+import Slider2 from "./components/Slider2";
+import Certificates from "./components/Certificates";
+import Certificates2 from "./components/Certificates2";
 
 
-
-// const projects = [
-//   {
-//     title: 'Project 1',
-//     description: 'Description for Project 1',
-//     imageUrl: require('./1.jpg').default,
-//   },
-//   {
-//     title: 'Project 2',
-//     description: 'Description for Project 2',
-//     imageUrl: require('./2.jpg').default,
-//   },
-//   {
-//     title: 'Project 3',
-//     description: 'Description for Project 3',
-//     imageUrl: require('./3.jpg').default,
-//   },
-//   // Add more projects
-// ];
 
 export default function App(){
   return(
@@ -31,6 +16,10 @@ export default function App(){
     <Navbar />
     <About />
     <ProjectSlider />
+    <Slider />
+    <Certificates />
+    <Certificates2 />
+    <Slider2 />
     <Contact />
     <Footer />
     </>

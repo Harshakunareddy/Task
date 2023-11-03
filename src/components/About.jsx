@@ -6,22 +6,26 @@ import one from "../photos/my.jpg";
 const About = () => {
   return (
     <>
-      <h1 align="center">About Me</h1>
 
         <section className="about-section">
+          <h1 align="center" className='about'>About Me</h1>
 
-          <div className="profile-img">
-            <img src={one} className='img' alt="profile" />
-          </div>
-          <div className="about-content">
-            <p>
-              Welcome! I'm a passionate developer with a love for creating
-              web applications. With a background in Mern stack and Django, I bring quality work to
-              every project I work on. Let's bring your ideas to life.
-            </p>
+          <div className='flex'>
+              
+            <div className="profile-img">
+              <img src={one} className='img' alt="profile" />
+            </div>
+            <div className="about-content">
+              <p>
+                Welcome! I'm a passionate developer with a love for creating
+                web applications. With a background in <b>Mern stack , Django and also Android</b>, I bring quality work to
+                every project I work on. Let's bring your ideas to life.
+              </p>
+            </div>
+
           </div>
         </section>
-        <hr></hr>
+        <div className="gap">gap</div>
     </>
     
   );

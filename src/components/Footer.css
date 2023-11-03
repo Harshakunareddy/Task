@@ -1,0 +1,9 @@
+@media (max-width: 786px){
+    #navbar > .logo{
+        display: none;
+    }
+    /* #navbar > .links > .nav-links > ul {
+        display: flex;
+        justify-content: space-evenly;
+    } */
+}
