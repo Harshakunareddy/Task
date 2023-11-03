@@ -15,7 +15,7 @@ const Certificates2 = () => {
 
         <div className="project">
           <div className="proj">
-            <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.freecodecamp.org/certification/fcc44c9459f-c5d5-468b-8fc0-446fcfe4f26b/responsive-web-design" target="_blank" rel="noopener noreferrer">
 
               <img className="img1" src={one} alt="Freecodecamp.org" />
               <h2 align="center">freeCodeCamp.org</h2>
