@@ -11,7 +11,7 @@ const Certificates2 = () => {
   return (
     <>
       <div className="project-slider">
-        <div align="center" className="dynamic" ><b>My Traninigs and Events Certifications</b></div>
+        <div align="center" className="dynamic" ><b>My Trainings and Events Certifications</b></div>
 
         <div className="project">
           <div className="proj">
