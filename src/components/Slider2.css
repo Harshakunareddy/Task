@@ -7,6 +7,7 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    position: relative;
   }
   
   .website {
@@ -43,6 +44,9 @@
     justify-content: space-between;
     width: 100%;
     margin-top: 20px;
+    position: absolute; /* Added absolute positioning */
+    bottom: 20px; /* Adjust the bottom position as needed */
+    left: 0; /* Centered horizontally */
   }
   
   button {

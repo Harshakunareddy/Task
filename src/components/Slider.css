@@ -15,6 +15,7 @@
   
   /* max-width: 90%; */
   border-radius: 1rem;
+  position: relative;
 
 }
 
@@ -52,6 +53,10 @@ h3 {
   justify-content: space-between;
   width: 100%;
   margin-top: 20px;
+  position: absolute; /* Added absolute positioning */
+  bottom: 20px; /* Adjust the bottom position as needed */
+  left: 0; /* Centered horizontally */
+
 }
 
 button {

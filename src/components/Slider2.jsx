@@ -1,5 +1,5 @@
 // ImageSlider.js
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import './Slider.css';
 
 import ferriswheel from '../photos/ferriswheel.png';
@@ -42,6 +42,16 @@ const Slider = () => {
       setCurrentWebsiteIndex((prevIndex) => (prevIndex - 1 + websitesData.length) % websitesData.length);
     };
   
+     // Use useEffect for automatic slideshow
+    useEffect(() => {
+      const intervalId = setInterval(() => {
+        handleNext();
+      }, 5000); // Change 5000 to the desired interval in milliseconds (e.g., 5000 for 5 seconds)
+
+      // Cleanup function to clear the interval on component unmount
+      return () => clearInterval(intervalId);
+    }, []); // Empty dependency array ensures the effect runs once after initial render
+
     const currentWebsite = websitesData[currentWebsiteIndex];
   
     return (
