@@ -2,6 +2,7 @@
 import './Certificates.css';
 import one from "../photos/internpe.jpg";
 import two from "../photos/duranc.jpg";
+import three from "../photos/saiyans.png";
 
 
 const Certificates = () => {
@@ -17,6 +18,9 @@ const Certificates = () => {
             </a>
             <a href="https://drive.google.com/file/d/1WPLAws3DxFOLU22xwl2LaU4A_CpJuH75/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" className='img3'>
                 <img src={two} alt="duranc" />
+            </a>
+            <a href="https://drive.google.com/file/d/1sWL82AbFojnMzH8uxSZR9Oi7opDNhaDP/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className='img3'>
+                <img src={three} alt="saiyansBm" />
             </a>
         </div>
         
