@@ -1,5 +1,6 @@
 // import React, { useState } from 'react';
 import './ProjectSlider.css';
+import zero from "../photos/gradhous.png";
 import one from "../photos/socialmedia.png";
 import two from "../photos/store.png";
 import three from "../photos/uiop.png";
@@ -37,11 +38,27 @@ const ProjectSlider = () => {
 
   return (
     <>
+    
       <div className="project-slider" id="projects">
         {/* <button className="slider-button prev" onClick={prevSlide}>
           Previous
         </button> */}
         <div align="center" className="dynamic" ><b>My Dynamic Applications or Projects</b></div>
+
+
+        
+        <div className="project">
+          {/* <h2>{projects[currentIndex].title}</h2> */}
+          {/* <p>{projects[currentIndex].description}</p> */}
+          <div className="proj">
+            <a href="https://gradhous-dv.netlify.app/" target="_blank" rel="noopener noreferrer">
+
+              <img className="img0" src={zero} alt="project 0" />
+              <h2 align="center">MERN-Gradhous</h2>
+            </a>
+          </div>
+        </div>
+
 
         <div className="project">
           {/* <h2>{projects[currentIndex].title}</h2> */}

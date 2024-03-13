@@ -21,9 +21,9 @@ const Footer = () => {
         </div>
         
       </nav>
-      <footer className="footer">
+      {/* <footer className="footer">
         <p>&copy; 2023 Harsha's Portfolio</p>
-      </footer>
+      </footer> */}
     </div>
   );
 };
