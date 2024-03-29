@@ -45,8 +45,13 @@ a {
 img {
   width: 100%;
   max-height: 300px;
-  object-fit: cover;
+  object-fit: fill;
   border-radius: 8px 8px 0 0;
+}
+
+
+img:hover{
+  box-shadow: 10px 10px 35px rgba(0,0,0,0.1);
 }
 
 h3 {

@@ -61,6 +61,11 @@
     color: #333;
   }
 
+  .input-container:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  }
+
+
   
   /* Responsive design for smaller screens */
   @media (max-width: 768px) {

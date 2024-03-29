@@ -20,7 +20,7 @@ const Contact = () => {
         <div className='buttons'>
         
         <h2>Contact Me</h2>
-        <h4>Feel free to reach out to me with any questions or opportunities. I'll get back to you as soon as possible.</h4>
+        <h4>If Any Oppurtunities or Suggestions. I am just a Click Away From You.</h4>
         
         <div className="input-container">
             <a href="mailto:kunareddyharshareddy@gmail.com" target="_blank" rel="noopener noreferrer">

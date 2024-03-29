@@ -43,7 +43,7 @@ const ProjectSlider = () => {
         {/* <button className="slider-button prev" onClick={prevSlide}>
           Previous
         </button> */}
-        <div align="center" className="dynamic" ><b>My Dynamic Applications or Projects</b></div>
+        <div align="center" className="dynamic" ><b>My Full Stack Projects</b></div>
 
 
         
@@ -53,7 +53,7 @@ const ProjectSlider = () => {
           <div className="proj">
             <a href="https://gradhous-dv.netlify.app/" target="_blank" rel="noopener noreferrer">
 
-              <img className="img0" src={zero} alt="project 0" />
+              <img className="img1" src={zero} alt="project 0" />
               <h2 align="center">MERN-Gradhous</h2>
             </a>
           </div>
@@ -79,7 +79,7 @@ const ProjectSlider = () => {
             </a>
           </div>
           <div className='proj'>
-            <a href="https://play.google.com/store/apps/details?id=com.harsha.calling" target="_blank" rel="noopener noreferrer">
+            <a href="https://galaxy.store/mtobfhbxn" target="_blank" rel="noopener noreferrer">
 
               <img className="img2" src={three} alt="project 3" />
               <h2 align="center">Android-Randomcalling</h2>
