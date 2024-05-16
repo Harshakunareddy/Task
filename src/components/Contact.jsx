@@ -54,9 +54,7 @@ const Contact = () => {
           </div>
 
           <div className="input-container">
-            <a 
-            href="https://www.linkedin.com/in/kunareddy-harshavardhan-reddy-63b0b61bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-             target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/harshavardhan-reddy-kunareddy-63b0b61bb" target="_blank" rel="noopener noreferrer">
               
               {/* <h1><i className="fab fa-linkedin-in"></i></h1> */}
               <h1>
