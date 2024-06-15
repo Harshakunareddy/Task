@@ -4,6 +4,8 @@ import zero from "../photos/gradhous.png";
 import one from "../photos/socialmedia.png";
 import two from "../photos/store.png";
 import three from "../photos/uiop.png";
+import debt from "../photos/debt.jpeg";
+
 
 
 const ProjectSlider = () => {
@@ -46,21 +48,36 @@ const ProjectSlider = () => {
         <div align="center" className="dynamic" ><b>My Full Stack Projects</b></div>
 
 
+
+
         
+        
+
         <div className="project">
-          {/* <h2>{projects[currentIndex].title}</h2> */}
-          {/* <p>{projects[currentIndex].description}</p> */}
+
+
+
+
+          <div className="proj">
+            <a href="https://debtcollectforu.com" target="_blank" rel="noopener noreferrer">
+
+              <img className="img1" src={debt} alt="project europe" />
+              <h2 align="center">reactJs , firebase</h2>
+            </a>
+          </div>
+
+
+
           <div className="proj">
             <a href="https://gradhous-dv.netlify.app/" target="_blank" rel="noopener noreferrer">
 
               <img className="img1" src={zero} alt="project 0" />
-              <h2 align="center">MERN-Gradhous</h2>
+              <h2 align="center">mern-gradhous</h2>
             </a>
           </div>
-        </div>
 
 
-        <div className="project">
+
           {/* <h2>{projects[currentIndex].title}</h2> */}
           {/* <p>{projects[currentIndex].description}</p> */}
           <div className="proj">
@@ -81,8 +98,8 @@ const ProjectSlider = () => {
           <div className='proj'>
             <a href="https://galaxy.store/mtobfhbxn" target="_blank" rel="noopener noreferrer">
 
-              <img className="img2" src={three} alt="project 3" />
-              <h2 align="center">Android-Randomcalling</h2>
+              <img className="img1" src={three} alt="project 3" />
+              <h2 align="center">Android Omegle Clone Project</h2>
             </a>
           </div>
           

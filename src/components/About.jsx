@@ -1,7 +1,8 @@
 // About.js
 import React from 'react';
 import './About.css';
-import one from "../photos/harsha.jpg";
+// import one from "../photos/harsha.jpg";
+import profile from "../photos/profile.jpeg";
 
 const About = () => {
   return (
@@ -13,7 +14,7 @@ const About = () => {
           <div className='flex'>
               
             <div className="profile-img">
-              <img src={one} className='img' alt="profile" />
+              <img src={profile} className='img' alt="profile" />
             </div>
             <div className="about-content">
               <p>

@@ -6,16 +6,16 @@
   box-shadow: 20px 20px 20px rgba(0,0,0,0.1);
   margin: 1rem auto;
   
-  max-width: 90%;
+  max-width: 80%;
   border-radius: 1rem;
-  
+
   }
 
   
 
   .project{
     display: flex;
-    justify-content: space-between;
+    
     align-items: center;
     flex-wrap: wrap;
     /* padding: 20px; */
@@ -44,7 +44,7 @@
     /* min-height: 250px; */
     max-height: 200px;
     border-radius: 1rem;
-    border: 5px solid skyblue;
+    border: 5px solid rgb(235, 190, 135);
     margin: 20px;
 
   }
@@ -68,6 +68,7 @@
   .dynamic{
     font-size: 2rem;
     margin-bottom: 20px;
+    
   }
 
 @media (max-width: 768px) {

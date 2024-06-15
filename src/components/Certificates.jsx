@@ -10,7 +10,7 @@ const Certificates = () => {
   return (
     <>
      <div className='section' id="certificates">
-        <h1 align="center" className="intern">My Internship Certificates</h1>
+        <h1 align="center" className="intern">My Experience Certificates</h1>
         <div className='section2'>
 
             {/* <a href="https://drive.google.com/file/d/1MCFPuQsokTwkM-xcgZUMr7HoO1d9Tbz4/view?usp=drivesdk" target="_blank" rel='noopener noreferrer' className="img3">
