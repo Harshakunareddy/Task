@@ -5,8 +5,9 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Slider from "./components/Slider";
 import Slider2 from "./components/Slider2";
-import Certificates from "./components/Certificates";
+import Certificates from "./components/CertificatesSlider";
 import Certificates2 from "./components/Certificates2";
+import SkillsSlider from "./components/SkillsProgress";
 
 
 
@@ -15,11 +16,12 @@ export default function App(){
     <>
     <Navbar />
     <About />
+    <SkillsSlider />
     <ProjectSlider />
-    <Slider />
+    {/* <Slider /> */}
     <Certificates />
-    <Certificates2 />
-    <Slider2 />
+    {/* <Certificates2 /> */}
+    {/* <Slider2 /> */}
     <Contact />
     <Footer />
     </>

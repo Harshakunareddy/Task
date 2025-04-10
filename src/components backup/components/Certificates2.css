@@ -1,11 +1,13 @@
 .project-slider {
-    background-color: #282c34;
+    background-color: #fff;
     padding: 50px;
     text-align: center;
     border: none;
     box-shadow: 20px 20px 20px rgba(0,0,0,0.1);
-    margin: 5px 5px;    
-    max-width: 95%;
+    margin: 1rem auto;
+    
+    max-width: 70%;
+    border-radius: 1rem;
     
     }
   

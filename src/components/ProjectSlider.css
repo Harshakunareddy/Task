@@ -1,83 +1,180 @@
+/* Project Slider Section */
 .project-slider {
-  background-color: #fff;
-  padding: 50px;
+  background: linear-gradient(to right, #0f172a, #1e293b);
+  color: #fff;
+  padding: 60px 30px;
+  max-width: 90%;
+  margin: 5px auto;
+  box-shadow: 20px 5px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  width: 100%;
+}
+
+/* Left Side: Image */
+.project-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.project-image img {
+  width: 400px;
+  height: 250px;
+  border-radius: 0px;
+  object-fit: contain;
+  box-shadow: 0px 0px 15px rgba(105, 195, 255, 0.8);
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-image img:hover {
+  transform: scale(1.05);
+}
+
+/* Image navigation arrows */
+.image-nav {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.nav-icon {
+  font-size: 24px;
+  color: black;
+  cursor: pointer;
+  padding: 10px;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-icon:hover {
+  color: #00c2ff;
+  transform: scale(1.2);
+}
+
+/* Right Side: Project Details */
+.project-details {
+  flex: 1;
+  text-align: left;
+}
+
+.project-details h2 {
+  font-size: 24px;
+  color: #00c2ff;
+  margin-bottom: 10px;
+}
+
+.tech-stack {
+  font-size: 18px;
+  color: #00c2ff;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.project-description {
+  font-size: 16px;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+/* Project Link */
+.project-link {
+  display: flex;
+  align-items: center;
+  margin: 20px 10px;
+  color: #00c2ff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.project-link svg {
+  margin-right: 8px;
+}
+
+.project-link:hover {
+  color: #fff;
+  transform: scale(1.05);
+}
+
+/* Navigation Buttons Below Text */
+.slider-buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.slider-button {
+  background-color: #00c2ff;
   border: none;
-  box-shadow: 20px 20px 20px rgba(0,0,0,0.1);
-  margin: 1rem auto;
-  
-  max-width: 80%;
-  border-radius: 1rem;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+  color: #fff;
+  transition: transform 0.3s ease, background 0.3s ease;
+  box-shadow: 0px 0px 10px rgba(6, 184, 244, 0.6);
+}
 
-  }
+.slider-button:hover {
+  background-color: #fff;
+  color: #00c2ff;
+  transform: scale(1.2);
+}
 
-  
 
-  .project{
-    display: flex;
-    
-    align-items: center;
-    flex-wrap: wrap;
-    /* padding: 20px; */
-  }
 
-  .proj > a{
-    display: flex;
-    align-items: center;
+
+
+/* Responsive Design */
+@media (max-width: 900px) {
+  .slider-container {
     flex-direction: column;
-    box-shadow: 20px 10px 20px rgba(0,0,0,0.1);
-    padding: 0.5rem;
-    border-radius: 1rem;
-    margin-bottom: 20px;
-
-
+    text-align: center;
   }
 
-  .proj > a:hover{
-    box-shadow: 30px 30px 20px rgba(0,0,0,0.1);
-
+  .project-details h2 {
+    font-size: 18px;
+    color: #00c2ff;
+    margin-bottom: 10px;
   }
 
-  .img1{
-    
-    max-width: 350px;
-    /* min-height: 250px; */
-    max-height: 200px;
-    border-radius: 1rem;
-    border: 5px solid rgb(235, 190, 135);
-    margin: 20px;
 
+  .project-link{
+    display: flex;
+    justify-content: center;
   }
 
-  .img2{
-    
-    max-width: 250px;
-    /* min-height: 250px; */
-    max-height: 200px;
-    border-radius: 1rem;
-    border: 5px solid black;
-    margin: 20px;
-
-  }
-
-  .img1:hover{
-    cursor: pointer;
-    
+  .tech-stack {
+    font-size: 13px;
   }
   
-  .dynamic{
-    font-size: 2rem;
-    margin-bottom: 20px;
-    
+  
+  .project-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
   }
 
-@media (max-width: 768px) {
-  .img1 {
-    max-width: 250px;
+  .image-nav {
+    width: 90%;
   }
 
-  .dynamic{
-    font-size: 1.4rem;
-    
+  .project-details {
+    text-align: center;
+  }
+
+  .slider-buttons {
+    justify-content: center;
   }
 }
