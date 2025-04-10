@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import "./About.css";
 import profile from "../photos/profile.jpeg";
+// import profile from "../photos/harsha.jfif";
+
 import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 
 const About = () => {
@@ -22,7 +24,7 @@ const About = () => {
 
     animateNumber(setProjects, 10);
     animateNumber(setStartups, 4);
-    animateNumber(setClients, 14);
+    animateNumber(setClients, 9);
   }, []);
 
   return (
